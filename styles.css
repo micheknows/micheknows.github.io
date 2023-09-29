@@ -36,7 +36,7 @@ main.index {
   grid-gap: 20px;
 }
 
-.projects {
+main.projects {
   background-color: #efe9d8;
   color: #594a42;
   display: block; 
