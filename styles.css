@@ -1,61 +1,69 @@
 body {
-  background-color: #594a42;
-  color: #fff;
+
+background-color: #594a42;
+
+color: #fff;
+
 }
 
 .jumbotron {
-  background-color: #9b8757;
-}    
+
+background-color: #9b8757;
+
+}
 
 .navbar {
-  background-color: #9b8757;
+
+background-color: #9b8757;
+
 }
 
 .navbar a {
-  color: #efe9d8;   
+
+color: #efe9d8;
+
 }
 
 .navbar a:hover {
-  color: #9b8757;
+
+color: #9b8757;
+
 }
 
 footer {
-  background-color: #594a42;
+
+background-color: #594a42;
+
 }
 
 img {
-  border-color: #efe9d8;
+
+border-color: #efe9d8;
+
 }
 
+main {
 
-main.index {
-  background-color: #efe9d8;
-  color: #594a42;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-}
+background-color: #efe9d8;
 
-main.projects {
-  background-color: #efe9d8;
-  color: #594a42;
-  display: block; 
-}
+color: #594a42;
 
-
-
-.card { 
-  background-color: #fff;
 }
 
 h1, h2, h3 {
-  color: #594a42;
+
+color: #594a42;
+
 }
 
 a {
-  color: #594a42;
+
+color: #594a42;
+
 }
 
 a:hover {
-  color: #333;
+
+color: #333;
+
 }
