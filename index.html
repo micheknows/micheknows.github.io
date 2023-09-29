@@ -5,32 +5,76 @@
 
 <head>
   <title>Michelle's Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
-  <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Michelle's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron">
     <h1>Michelle Rogers</h1>
-    <nav>
-      <a href="index.html">About</a> 
-      <a href="projects.html">Projects</a>
-    </nav>
   </header>
 
-  <main>
+  <main class="container">
 
-    <img src="michelle.jpg" alt="Michelle Rogers">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="bio.png" class="img-fluid rounded-circle" alt="Michelle Rogers">
+      </div>
+      <div class="col-md-8">
+      
+        <p>I'm Michelle, an educator with a passion for coding!</p>
 
-    <p>I'm Michelle, an educator with a passion for coding!</p>
+        <p>
+          I've worked in schools for over 15 years as a teacher, tech coach, and curriculum coordinator. In my free time, I love to code personal projects, travel, and spend time with family.
+        </p>
 
-    <p>I've worked in schools for over 15 years as a teacher, tech coach, and curriculum coordinator. In my free time, I love to code personal projects, travel, and spend time with family.</p> 
+        <p>
+          Email: <a href="mailto:angelarogers@acm.org">angelarogers@acm.org</a>
+        </p>
+        
+        <p>
+          GitHub: <a href="https://github.com/michellerogers">michellerogers</a>  
+        </p>
+        
+        <p>
+         LinkedIn: <a href="https://linkedin.com/in/michelle-rogers-profile">michelle-rogers-profile</a>
+        </p>
+        
+      </div>
+    </div>
 
-    <p>Check out some of my work on my <a href="projects.html">Projects</a> page!</p>
+    <div class="embed-responsive embed-responsive-16by9 mt-5">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz123" allowfullscreen></iframe>
+    </div>
+
+    <p class="mt-5">
+      Check out some of my work on my <a href="projects.html">Projects</a> page!
+    </p>
 
   </main>
   
-  <footer>
+  <footer class="text-center mt-5">
     <p>&copy; 2023 Michelle Rogers</p>
   </footer>
 
