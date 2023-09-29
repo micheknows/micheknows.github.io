@@ -29,12 +29,16 @@ img {
 
 
 main.index {
+  background-color: #efe9d8;
+  color: #594a42;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
 }
 
 .projects {
+  background-color: #efe9d8;
+  color: #594a42;
   display: block; 
 }
 
