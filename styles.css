@@ -11,13 +11,16 @@ body {
   background-color: #9b8757;
 }
 
+
 .navbar a {
-  color: #594a42;
+   color: #efe9d8; 
 }
 
 .navbar a:hover {
-  color: #efe9d8;
+  color: #9b8757;
 }
+
+
 
 footer {
   background-color: #594a42;
@@ -37,9 +40,9 @@ h1, h2, h3 {
 }
 
 a {
-  color: #9b8757;
+  color: #594a42;
 }
 
 a:hover {
-  color: #efe9d8;
+  color: #9b8757; 
 }
